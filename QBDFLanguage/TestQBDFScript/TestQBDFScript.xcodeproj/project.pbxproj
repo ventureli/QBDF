@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B08B5491F42D81F0089778C /* TestObjct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B08B5481F42D81F0089778C /* TestObjct.m */; };
+		9B0F75121F41777800CB4400 /* QBDFNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F75111F41777800CB4400 /* QBDFNil.m */; };
+		9B2A04091F0387100095CF42 /* TestCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A04081F0387100095CF42 /* TestCollectionView.m */; };
+		9B43EC5A1EEAA1D800662BEB /* QBDFScriptMainDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B43EC591EEAA1D800662BEB /* QBDFScriptMainDefine.m */; };
+		9B582F431F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B582F421F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.m */; };
+		9B582F461F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B582F451F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.m */; };
+		9B582F491F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B582F481F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.m */; };
+		9B582F4C1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B582F4B1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.m */; };
+		9B750E5C1F3B0D7F00B9069F /* QBDFVarTypeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B750E5B1F3B0D7F00B9069F /* QBDFVarTypeHelper.m */; };
+		9B793AD91ED9724C00C57E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B793AD81ED9724C00C57E48 /* main.m */; };
+		9B793ADC1ED9724C00C57E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B793ADB1ED9724C00C57E48 /* AppDelegate.m */; };
+		9B793ADF1ED9724C00C57E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B793ADE1ED9724C00C57E48 /* ViewController.m */; };
+		9B793AE21ED9724C00C57E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B793AE01ED9724C00C57E48 /* Main.storyboard */; };
+		9B793AE41ED9724C00C57E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B793AE31ED9724C00C57E48 /* Assets.xcassets */; };
+		9B793AE71ED9724C00C57E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B793AE51ED9724C00C57E48 /* LaunchScreen.storyboard */; };
+		9B793AF21ED9724C00C57E48 /* TestQBDFScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B793AF11ED9724C00C57E48 /* TestQBDFScriptTests.m */; };
+		9B793AFD1ED9724C00C57E48 /* TestQBDFScriptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B793AFC1ED9724C00C57E48 /* TestQBDFScriptUITests.m */; };
+		9B81A95D1EEA548700E19FAA /* QBDFScriptInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A93A1EEA548700E19FAA /* QBDFScriptInterpreter.m */; };
+		9B81A95E1EEA548700E19FAA /* QBDFTKProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A93D1EEA548700E19FAA /* QBDFTKProcess.m */; };
+		9B81A9601EEA548700E19FAA /* QBDFBLKDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A94C1EEA548700E19FAA /* QBDFBLKDescription.m */; };
+		9B81A9611EEA548700E19FAA /* QBDFBLkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A94E1EEA548700E19FAA /* QBDFBLkTool.m */; };
+		9B81A9621EEA548700E19FAA /* QBDFCFUNCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A9501EEA548700E19FAA /* QBDFCFUNCenter.m */; };
+		9B81A9631EEA548700E19FAA /* QBDFMthdSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A9521EEA548700E19FAA /* QBDFMthdSign.m */; };
+		9B81A9641EEA548700E19FAA /* QBDFOCCALLCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A9541EEA548700E19FAA /* QBDFOCCALLCenter.m */; };
+		9B81A9651EEA548700E19FAA /* QBDFSymbolTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A9561EEA548700E19FAA /* QBDFSymbolTable.m */; };
+		9B81A9661EEA548700E19FAA /* QBDFSYSCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A9581EEA548700E19FAA /* QBDFSYSCenter.m */; };
+		9B81A9671EEA548700E19FAA /* QBDFVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A95A1EEA548700E19FAA /* QBDFVM.m */; };
+		9B81A9681EEA548700E19FAA /* QBDFVMContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81A95C1EEA548700E19FAA /* QBDFVMContext.m */; };
+		9B81A9691EEA54EA00E19FAA /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B81A94A1EEA548700E19FAA /* libffi.a */; };
+		9B86282F1EDE6C2400049D1F /* ViewControllerShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B86282E1EDE6C2400049D1F /* ViewControllerShareView.m */; };
+		9B8D2D971F3C47E2003624FD /* QBDFSymbolTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D2D961F3C47E2003624FD /* QBDFSymbolTableItem.m */; };
+		9B8D2D9A1F3C48BA003624FD /* QBDFSymbolTableContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D2D991F3C48BA003624FD /* QBDFSymbolTableContent.m */; };
+		9B8D2D9D1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D2D9C1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.m */; };
+		9B9A6D671EE7F50200B8228D /* res in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A6D661EE7F50200B8228D /* res */; };
+		9BAD675F1F04F5620073CF7E /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD675D1F04F5620073CF7E /* JPEngine.m */; };
+		9BAD67601F04F5620073CF7E /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 9BAD675E1F04F5620073CF7E /* JSPatch.js */; };
+		9BBDFBB51F34526A00F72714 /* QBDFStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDFBB41F34526A00F72714 /* QBDFStruct.m */; };
+		9BBDFBB91F34557700F72714 /* QBDFSYSCenter+SuperCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDFBB81F34557700F72714 /* QBDFSYSCenter+SuperCall.m */; };
+		9BBDFBBF1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBDFBBE1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.m */; };
+		9BD525A81F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD525A71F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B793AEE1ED9724C00C57E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B793ACC1ED9724C00C57E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B793AD31ED9724C00C57E48;
+			remoteInfo = TestQBDFScript;
+		};
+		9B793AF91ED9724C00C57E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B793ACC1ED9724C00C57E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B793AD31ED9724C00C57E48;
+			remoteInfo = TestQBDFScript;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B08B5471F42D81F0089778C /* TestObjct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjct.h; sourceTree = "<group>"; };
+		9B08B5481F42D81F0089778C /* TestObjct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjct.m; sourceTree = "<group>"; };
+		9B0F75101F41777800CB4400 /* QBDFNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFNil.h; sourceTree = "<group>"; };
+		9B0F75111F41777800CB4400 /* QBDFNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFNil.m; sourceTree = "<group>"; };
+		9B2A04071F0387100095CF42 /* TestCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionView.h; sourceTree = "<group>"; };
+		9B2A04081F0387100095CF42 /* TestCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionView.m; sourceTree = "<group>"; };
+		9B43EC591EEAA1D800662BEB /* QBDFScriptMainDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFScriptMainDefine.m; sourceTree = "<group>"; };
+		9B582F411F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFCFUNCenter+CGStructFunction.h"; sourceTree = "<group>"; };
+		9B582F421F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFCFUNCenter+CGStructFunction.m"; sourceTree = "<group>"; };
+		9B582F441F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFCFUNCenter+MathFunction.h"; sourceTree = "<group>"; };
+		9B582F451F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFCFUNCenter+MathFunction.m"; sourceTree = "<group>"; };
+		9B582F471F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFCFUNCenter+SYSBasicFunction.h"; sourceTree = "<group>"; };
+		9B582F481F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFCFUNCenter+SYSBasicFunction.m"; sourceTree = "<group>"; };
+		9B582F4A1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFCFUNCenter+QBDFSPECFunction.h"; sourceTree = "<group>"; };
+		9B582F4B1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFCFUNCenter+QBDFSPECFunction.m"; sourceTree = "<group>"; };
+		9B750E5A1F3B0D7F00B9069F /* QBDFVarTypeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFVarTypeHelper.h; sourceTree = "<group>"; };
+		9B750E5B1F3B0D7F00B9069F /* QBDFVarTypeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFVarTypeHelper.m; sourceTree = "<group>"; };
+		9B793AD41ED9724C00C57E48 /* TestQBDFScript.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestQBDFScript.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B793AD81ED9724C00C57E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B793ADA1ED9724C00C57E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B793ADB1ED9724C00C57E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B793ADD1ED9724C00C57E48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B793ADE1ED9724C00C57E48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B793AE11ED9724C00C57E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B793AE31ED9724C00C57E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B793AE61ED9724C00C57E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B793AE81ED9724C00C57E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B793AED1ED9724C00C57E48 /* TestQBDFScriptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestQBDFScriptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B793AF11ED9724C00C57E48 /* TestQBDFScriptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestQBDFScriptTests.m; sourceTree = "<group>"; };
+		9B793AF31ED9724C00C57E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B793AF81ED9724C00C57E48 /* TestQBDFScriptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestQBDFScriptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B793AFC1ED9724C00C57E48 /* TestQBDFScriptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestQBDFScriptUITests.m; sourceTree = "<group>"; };
+		9B793AFE1ED9724C00C57E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B81A9391EEA548700E19FAA /* QBDFScriptInterpreter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFScriptInterpreter.h; sourceTree = "<group>"; };
+		9B81A93A1EEA548700E19FAA /* QBDFScriptInterpreter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFScriptInterpreter.m; sourceTree = "<group>"; };
+		9B81A93B1EEA548700E19FAA /* QBDFScriptMainDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFScriptMainDefine.h; sourceTree = "<group>"; };
+		9B81A93C1EEA548700E19FAA /* QBDFTKProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFTKProcess.h; sourceTree = "<group>"; };
+		9B81A93D1EEA548700E19FAA /* QBDFTKProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFTKProcess.m; sourceTree = "<group>"; };
+		9B81A9401EEA548700E19FAA /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		9B81A9411EEA548700E19FAA /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		9B81A9421EEA548700E19FAA /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		9B81A9431EEA548700E19FAA /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		9B81A9441EEA548700E19FAA /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		9B81A9451EEA548700E19FAA /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		9B81A9461EEA548700E19FAA /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		9B81A9471EEA548700E19FAA /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		9B81A9481EEA548700E19FAA /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		9B81A9491EEA548700E19FAA /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		9B81A94A1EEA548700E19FAA /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		9B81A94B1EEA548700E19FAA /* QBDFBLKDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFBLKDescription.h; sourceTree = "<group>"; };
+		9B81A94C1EEA548700E19FAA /* QBDFBLKDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFBLKDescription.m; sourceTree = "<group>"; };
+		9B81A94D1EEA548700E19FAA /* QBDFBLkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFBLkTool.h; sourceTree = "<group>"; };
+		9B81A94E1EEA548700E19FAA /* QBDFBLkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFBLkTool.m; sourceTree = "<group>"; };
+		9B81A94F1EEA548700E19FAA /* QBDFCFUNCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFCFUNCenter.h; sourceTree = "<group>"; };
+		9B81A9501EEA548700E19FAA /* QBDFCFUNCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFCFUNCenter.m; sourceTree = "<group>"; };
+		9B81A9511EEA548700E19FAA /* QBDFMthdSign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFMthdSign.h; sourceTree = "<group>"; };
+		9B81A9521EEA548700E19FAA /* QBDFMthdSign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFMthdSign.m; sourceTree = "<group>"; };
+		9B81A9531EEA548700E19FAA /* QBDFOCCALLCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFOCCALLCenter.h; sourceTree = "<group>"; };
+		9B81A9541EEA548700E19FAA /* QBDFOCCALLCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFOCCALLCenter.m; sourceTree = "<group>"; };
+		9B81A9551EEA548700E19FAA /* QBDFSymbolTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QBDFSymbolTable.h; path = ../QBDFSymbolTable.h; sourceTree = "<group>"; };
+		9B81A9561EEA548700E19FAA /* QBDFSymbolTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QBDFSymbolTable.m; path = ../QBDFSymbolTable.m; sourceTree = "<group>"; };
+		9B81A9571EEA548700E19FAA /* QBDFSYSCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFSYSCenter.h; sourceTree = "<group>"; };
+		9B81A9581EEA548700E19FAA /* QBDFSYSCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFSYSCenter.m; sourceTree = "<group>"; };
+		9B81A9591EEA548700E19FAA /* QBDFVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFVM.h; sourceTree = "<group>"; };
+		9B81A95A1EEA548700E19FAA /* QBDFVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFVM.m; sourceTree = "<group>"; };
+		9B81A95B1EEA548700E19FAA /* QBDFVMContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFVMContext.h; sourceTree = "<group>"; };
+		9B81A95C1EEA548700E19FAA /* QBDFVMContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFVMContext.m; sourceTree = "<group>"; };
+		9B86282D1EDE6C2400049D1F /* ViewControllerShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerShareView.h; sourceTree = "<group>"; };
+		9B86282E1EDE6C2400049D1F /* ViewControllerShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerShareView.m; sourceTree = "<group>"; };
+		9B8D2D951F3C47E2003624FD /* QBDFSymbolTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFSymbolTableItem.h; sourceTree = "<group>"; };
+		9B8D2D961F3C47E2003624FD /* QBDFSymbolTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFSymbolTableItem.m; sourceTree = "<group>"; };
+		9B8D2D981F3C48BA003624FD /* QBDFSymbolTableContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFSymbolTableContent.h; sourceTree = "<group>"; };
+		9B8D2D991F3C48BA003624FD /* QBDFSymbolTableContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFSymbolTableContent.m; sourceTree = "<group>"; };
+		9B8D2D9B1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFSymbolTableIdentifyItem.h; sourceTree = "<group>"; };
+		9B8D2D9C1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFSymbolTableIdentifyItem.m; sourceTree = "<group>"; };
+		9B9A6D661EE7F50200B8228D /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		9BAD675C1F04F5620073CF7E /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		9BAD675D1F04F5620073CF7E /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		9BAD675E1F04F5620073CF7E /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		9BBDFBB31F34526A00F72714 /* QBDFStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBDFStruct.h; sourceTree = "<group>"; };
+		9BBDFBB41F34526A00F72714 /* QBDFStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBDFStruct.m; sourceTree = "<group>"; };
+		9BBDFBB71F34557700F72714 /* QBDFSYSCenter+SuperCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFSYSCenter+SuperCall.h"; sourceTree = "<group>"; };
+		9BBDFBB81F34557700F72714 /* QBDFSYSCenter+SuperCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFSYSCenter+SuperCall.m"; sourceTree = "<group>"; };
+		9BBDFBBD1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFSYSCenter+QBDFStruct.h"; sourceTree = "<group>"; };
+		9BBDFBBE1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFSYSCenter+QBDFStruct.m"; sourceTree = "<group>"; };
+		9BD525A61F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QBDFCFUNCenter+CommonStruct.h"; sourceTree = "<group>"; };
+		9BD525A71F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QBDFCFUNCenter+CommonStruct.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B793AD11ED9724C00C57E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B81A9691EEA54EA00E19FAA /* libffi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B793AEA1ED9724C00C57E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B793AF51ED9724C00C57E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B582F401F2F228E007340AC /* CFUN */ = {
+			isa = PBXGroup;
+			children = (
+				9B582F411F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.h */,
+				9B582F421F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.m */,
+				9B582F441F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.h */,
+				9B582F451F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.m */,
+				9B582F471F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.h */,
+				9B582F481F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.m */,
+				9B582F4A1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.h */,
+				9B582F4B1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.m */,
+				9BD525A61F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.h */,
+				9BD525A71F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.m */,
+			);
+			path = CFUN;
+			sourceTree = "<group>";
+		};
+		9B793ACB1ED9724C00C57E48 = {
+			isa = PBXGroup;
+			children = (
+				9BAD675B1F04F5620073CF7E /* jspatch */,
+				9B81A9371EEA548700E19FAA /* QBDFScript */,
+				9B9A6D661EE7F50200B8228D /* res */,
+				9B793AD61ED9724C00C57E48 /* TestQBDFScript */,
+				9B793AF01ED9724C00C57E48 /* TestQBDFScriptTests */,
+				9B793AFB1ED9724C00C57E48 /* TestQBDFScriptUITests */,
+				9B793AD51ED9724C00C57E48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B793AD51ED9724C00C57E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B793AD41ED9724C00C57E48 /* TestQBDFScript.app */,
+				9B793AED1ED9724C00C57E48 /* TestQBDFScriptTests.xctest */,
+				9B793AF81ED9724C00C57E48 /* TestQBDFScriptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B793AD61ED9724C00C57E48 /* TestQBDFScript */ = {
+			isa = PBXGroup;
+			children = (
+				9B793ADA1ED9724C00C57E48 /* AppDelegate.h */,
+				9B793ADB1ED9724C00C57E48 /* AppDelegate.m */,
+				9B793ADD1ED9724C00C57E48 /* ViewController.h */,
+				9B793ADE1ED9724C00C57E48 /* ViewController.m */,
+				9B793AE01ED9724C00C57E48 /* Main.storyboard */,
+				9B86282D1EDE6C2400049D1F /* ViewControllerShareView.h */,
+				9B86282E1EDE6C2400049D1F /* ViewControllerShareView.m */,
+				9B793AE31ED9724C00C57E48 /* Assets.xcassets */,
+				9B793AE51ED9724C00C57E48 /* LaunchScreen.storyboard */,
+				9B793AE81ED9724C00C57E48 /* Info.plist */,
+				9B793AD71ED9724C00C57E48 /* Supporting Files */,
+				9B2A04071F0387100095CF42 /* TestCollectionView.h */,
+				9B2A04081F0387100095CF42 /* TestCollectionView.m */,
+				9B08B5471F42D81F0089778C /* TestObjct.h */,
+				9B08B5481F42D81F0089778C /* TestObjct.m */,
+			);
+			path = TestQBDFScript;
+			sourceTree = "<group>";
+		};
+		9B793AD71ED9724C00C57E48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B793AD81ED9724C00C57E48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B793AF01ED9724C00C57E48 /* TestQBDFScriptTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B793AF11ED9724C00C57E48 /* TestQBDFScriptTests.m */,
+				9B793AF31ED9724C00C57E48 /* Info.plist */,
+			);
+			path = TestQBDFScriptTests;
+			sourceTree = "<group>";
+		};
+		9B793AFB1ED9724C00C57E48 /* TestQBDFScriptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B793AFC1ED9724C00C57E48 /* TestQBDFScriptUITests.m */,
+				9B793AFE1ED9724C00C57E48 /* Info.plist */,
+			);
+			path = TestQBDFScriptUITests;
+			sourceTree = "<group>";
+		};
+		9B81A9371EEA548700E19FAA /* QBDFScript */ = {
+			isa = PBXGroup;
+			children = (
+				9B81A9381EEA548700E19FAA /* QBDFInterPreter */,
+				9B81A93E1EEA548700E19FAA /* QBDFVM */,
+			);
+			name = QBDFScript;
+			path = ../QBDFScript;
+			sourceTree = "<group>";
+		};
+		9B81A9381EEA548700E19FAA /* QBDFInterPreter */ = {
+			isa = PBXGroup;
+			children = (
+				9B81A9391EEA548700E19FAA /* QBDFScriptInterpreter.h */,
+				9B81A93A1EEA548700E19FAA /* QBDFScriptInterpreter.m */,
+				9B81A93B1EEA548700E19FAA /* QBDFScriptMainDefine.h */,
+				9B81A93C1EEA548700E19FAA /* QBDFTKProcess.h */,
+				9B81A93D1EEA548700E19FAA /* QBDFTKProcess.m */,
+				9B43EC591EEAA1D800662BEB /* QBDFScriptMainDefine.m */,
+				9B750E5A1F3B0D7F00B9069F /* QBDFVarTypeHelper.h */,
+				9B750E5B1F3B0D7F00B9069F /* QBDFVarTypeHelper.m */,
+			);
+			path = QBDFInterPreter;
+			sourceTree = "<group>";
+		};
+		9B81A93E1EEA548700E19FAA /* QBDFVM */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D2D941F3C4734003624FD /* symtable */,
+				9BBDFBB61F34553D00F72714 /* SYS */,
+				9BBDFBB21F3450AF00F72714 /* bean */,
+				9B582F401F2F228E007340AC /* CFUN */,
+				9B81A93F1EEA548700E19FAA /* libffi */,
+				9B81A94B1EEA548700E19FAA /* QBDFBLKDescription.h */,
+				9B81A94C1EEA548700E19FAA /* QBDFBLKDescription.m */,
+				9B81A94D1EEA548700E19FAA /* QBDFBLkTool.h */,
+				9B81A94E1EEA548700E19FAA /* QBDFBLkTool.m */,
+				9B81A94F1EEA548700E19FAA /* QBDFCFUNCenter.h */,
+				9B81A9501EEA548700E19FAA /* QBDFCFUNCenter.m */,
+				9B81A9511EEA548700E19FAA /* QBDFMthdSign.h */,
+				9B81A9521EEA548700E19FAA /* QBDFMthdSign.m */,
+				9B81A9531EEA548700E19FAA /* QBDFOCCALLCenter.h */,
+				9B81A9541EEA548700E19FAA /* QBDFOCCALLCenter.m */,
+				9B81A9571EEA548700E19FAA /* QBDFSYSCenter.h */,
+				9B81A9581EEA548700E19FAA /* QBDFSYSCenter.m */,
+				9B81A9591EEA548700E19FAA /* QBDFVM.h */,
+				9B81A95A1EEA548700E19FAA /* QBDFVM.m */,
+				9B81A95B1EEA548700E19FAA /* QBDFVMContext.h */,
+				9B81A95C1EEA548700E19FAA /* QBDFVMContext.m */,
+			);
+			path = QBDFVM;
+			sourceTree = "<group>";
+		};
+		9B81A93F1EEA548700E19FAA /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				9B81A9401EEA548700E19FAA /* ffi.h */,
+				9B81A9411EEA548700E19FAA /* ffi_arm.h */,
+				9B81A9421EEA548700E19FAA /* ffi_arm64.h */,
+				9B81A9431EEA548700E19FAA /* ffi_i386.h */,
+				9B81A9441EEA548700E19FAA /* ffi_x86_64.h */,
+				9B81A9451EEA548700E19FAA /* ffitarget.h */,
+				9B81A9461EEA548700E19FAA /* ffitarget_arm.h */,
+				9B81A9471EEA548700E19FAA /* ffitarget_arm64.h */,
+				9B81A9481EEA548700E19FAA /* ffitarget_i386.h */,
+				9B81A9491EEA548700E19FAA /* ffitarget_x86_64.h */,
+				9B81A94A1EEA548700E19FAA /* libffi.a */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		9B8D2D941F3C4734003624FD /* symtable */ = {
+			isa = PBXGroup;
+			children = (
+				9B81A9551EEA548700E19FAA /* QBDFSymbolTable.h */,
+				9B81A9561EEA548700E19FAA /* QBDFSymbolTable.m */,
+				9B8D2D951F3C47E2003624FD /* QBDFSymbolTableItem.h */,
+				9B8D2D961F3C47E2003624FD /* QBDFSymbolTableItem.m */,
+				9B8D2D981F3C48BA003624FD /* QBDFSymbolTableContent.h */,
+				9B8D2D991F3C48BA003624FD /* QBDFSymbolTableContent.m */,
+				9B8D2D9B1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.h */,
+				9B8D2D9C1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.m */,
+			);
+			path = symtable;
+			sourceTree = "<group>";
+		};
+		9BAD675B1F04F5620073CF7E /* jspatch */ = {
+			isa = PBXGroup;
+			children = (
+				9BAD675C1F04F5620073CF7E /* JPEngine.h */,
+				9BAD675D1F04F5620073CF7E /* JPEngine.m */,
+				9BAD675E1F04F5620073CF7E /* JSPatch.js */,
+			);
+			path = jspatch;
+			sourceTree = "<group>";
+		};
+		9BBDFBB21F3450AF00F72714 /* bean */ = {
+			isa = PBXGroup;
+			children = (
+				9BBDFBB31F34526A00F72714 /* QBDFStruct.h */,
+				9BBDFBB41F34526A00F72714 /* QBDFStruct.m */,
+				9B0F75101F41777800CB4400 /* QBDFNil.h */,
+				9B0F75111F41777800CB4400 /* QBDFNil.m */,
+			);
+			path = bean;
+			sourceTree = "<group>";
+		};
+		9BBDFBB61F34553D00F72714 /* SYS */ = {
+			isa = PBXGroup;
+			children = (
+				9BBDFBB71F34557700F72714 /* QBDFSYSCenter+SuperCall.h */,
+				9BBDFBB81F34557700F72714 /* QBDFSYSCenter+SuperCall.m */,
+				9BBDFBBD1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.h */,
+				9BBDFBBE1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.m */,
+			);
+			path = SYS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B793AD31ED9724C00C57E48 /* TestQBDFScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B793B011ED9724C00C57E48 /* Build configuration list for PBXNativeTarget "TestQBDFScript" */;
+			buildPhases = (
+				9B793AD01ED9724C00C57E48 /* Sources */,
+				9B793AD11ED9724C00C57E48 /* Frameworks */,
+				9B793AD21ED9724C00C57E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestQBDFScript;
+			productName = TestQBDFScript;
+			productReference = 9B793AD41ED9724C00C57E48 /* TestQBDFScript.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B793AEC1ED9724C00C57E48 /* TestQBDFScriptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B793B041ED9724C00C57E48 /* Build configuration list for PBXNativeTarget "TestQBDFScriptTests" */;
+			buildPhases = (
+				9B793AE91ED9724C00C57E48 /* Sources */,
+				9B793AEA1ED9724C00C57E48 /* Frameworks */,
+				9B793AEB1ED9724C00C57E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B793AEF1ED9724C00C57E48 /* PBXTargetDependency */,
+			);
+			name = TestQBDFScriptTests;
+			productName = TestQBDFScriptTests;
+			productReference = 9B793AED1ED9724C00C57E48 /* TestQBDFScriptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B793AF71ED9724C00C57E48 /* TestQBDFScriptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B793B071ED9724C00C57E48 /* Build configuration list for PBXNativeTarget "TestQBDFScriptUITests" */;
+			buildPhases = (
+				9B793AF41ED9724C00C57E48 /* Sources */,
+				9B793AF51ED9724C00C57E48 /* Frameworks */,
+				9B793AF61ED9724C00C57E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B793AFA1ED9724C00C57E48 /* PBXTargetDependency */,
+			);
+			name = TestQBDFScriptUITests;
+			productName = TestQBDFScriptUITests;
+			productReference = 9B793AF81ED9724C00C57E48 /* TestQBDFScriptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B793ACC1ED9724C00C57E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fatboyli;
+				TargetAttributes = {
+					9B793AD31ED9724C00C57E48 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z929W8HRSQ;
+						ProvisioningStyle = Automatic;
+					};
+					9B793AEC1ED9724C00C57E48 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B793AD31ED9724C00C57E48;
+					};
+					9B793AF71ED9724C00C57E48 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B793AD31ED9724C00C57E48;
+					};
+				};
+			};
+			buildConfigurationList = 9B793ACF1ED9724C00C57E48 /* Build configuration list for PBXProject "TestQBDFScript" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B793ACB1ED9724C00C57E48;
+			productRefGroup = 9B793AD51ED9724C00C57E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B793AD31ED9724C00C57E48 /* TestQBDFScript */,
+				9B793AEC1ED9724C00C57E48 /* TestQBDFScriptTests */,
+				9B793AF71ED9724C00C57E48 /* TestQBDFScriptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B793AD21ED9724C00C57E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B793AE71ED9724C00C57E48 /* LaunchScreen.storyboard in Resources */,
+				9BAD67601F04F5620073CF7E /* JSPatch.js in Resources */,
+				9B9A6D671EE7F50200B8228D /* res in Resources */,
+				9B793AE41ED9724C00C57E48 /* Assets.xcassets in Resources */,
+				9B793AE21ED9724C00C57E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B793AEB1ED9724C00C57E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B793AF61ED9724C00C57E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B793AD01ED9724C00C57E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B582F4C1F2F2D6B007340AC /* QBDFCFUNCenter+QBDFSPECFunction.m in Sources */,
+				9B793ADF1ED9724C00C57E48 /* ViewController.m in Sources */,
+				9B8D2D971F3C47E2003624FD /* QBDFSymbolTableItem.m in Sources */,
+				9BBDFBBF1F345A0500F72714 /* QBDFSYSCenter+QBDFStruct.m in Sources */,
+				9B81A9671EEA548700E19FAA /* QBDFVM.m in Sources */,
+				9B750E5C1F3B0D7F00B9069F /* QBDFVarTypeHelper.m in Sources */,
+				9B81A9621EEA548700E19FAA /* QBDFCFUNCenter.m in Sources */,
+				9B43EC5A1EEAA1D800662BEB /* QBDFScriptMainDefine.m in Sources */,
+				9B86282F1EDE6C2400049D1F /* ViewControllerShareView.m in Sources */,
+				9B2A04091F0387100095CF42 /* TestCollectionView.m in Sources */,
+				9B81A9681EEA548700E19FAA /* QBDFVMContext.m in Sources */,
+				9B793ADC1ED9724C00C57E48 /* AppDelegate.m in Sources */,
+				9B81A95D1EEA548700E19FAA /* QBDFScriptInterpreter.m in Sources */,
+				9BAD675F1F04F5620073CF7E /* JPEngine.m in Sources */,
+				9B81A9611EEA548700E19FAA /* QBDFBLkTool.m in Sources */,
+				9B81A9631EEA548700E19FAA /* QBDFMthdSign.m in Sources */,
+				9B0F75121F41777800CB4400 /* QBDFNil.m in Sources */,
+				9B793AD91ED9724C00C57E48 /* main.m in Sources */,
+				9B582F461F2F22D0007340AC /* QBDFCFUNCenter+MathFunction.m in Sources */,
+				9B8D2D9D1F3C524D003624FD /* QBDFSymbolTableIdentifyItem.m in Sources */,
+				9BBDFBB91F34557700F72714 /* QBDFSYSCenter+SuperCall.m in Sources */,
+				9B81A9641EEA548700E19FAA /* QBDFOCCALLCenter.m in Sources */,
+				9B8D2D9A1F3C48BA003624FD /* QBDFSymbolTableContent.m in Sources */,
+				9B582F431F2F228E007340AC /* QBDFCFUNCenter+CGStructFunction.m in Sources */,
+				9B08B5491F42D81F0089778C /* TestObjct.m in Sources */,
+				9B81A9601EEA548700E19FAA /* QBDFBLKDescription.m in Sources */,
+				9B81A9661EEA548700E19FAA /* QBDFSYSCenter.m in Sources */,
+				9BBDFBB51F34526A00F72714 /* QBDFStruct.m in Sources */,
+				9B582F491F2F2664007340AC /* QBDFCFUNCenter+SYSBasicFunction.m in Sources */,
+				9B81A95E1EEA548700E19FAA /* QBDFTKProcess.m in Sources */,
+				9B81A9651EEA548700E19FAA /* QBDFSymbolTable.m in Sources */,
+				9BD525A81F380E32008DBD55 /* QBDFCFUNCenter+CommonStruct.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B793AE91ED9724C00C57E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B793AF21ED9724C00C57E48 /* TestQBDFScriptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B793AF41ED9724C00C57E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B793AFD1ED9724C00C57E48 /* TestQBDFScriptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B793AEF1ED9724C00C57E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B793AD31ED9724C00C57E48 /* TestQBDFScript */;
+			targetProxy = 9B793AEE1ED9724C00C57E48 /* PBXContainerItemProxy */;
+		};
+		9B793AFA1ED9724C00C57E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B793AD31ED9724C00C57E48 /* TestQBDFScript */;
+			targetProxy = 9B793AF91ED9724C00C57E48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B793AE01ED9724C00C57E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B793AE11ED9724C00C57E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B793AE51ED9724C00C57E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B793AE61ED9724C00C57E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B793AFF1ED9724C00C57E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9B793B001ED9724C00C57E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B793B021ED9724C00C57E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z929W8HRSQ;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = TestQBDFScript/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../QBDFScript/QBDFVM/libffi",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.TestQBDFScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B793B031ED9724C00C57E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z929W8HRSQ;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = TestQBDFScript/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../QBDFScript/QBDFVM/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.TestQBDFScript;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B793B051ED9724C00C57E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestQBDFScriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.TestQBDFScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestQBDFScript.app/TestQBDFScript";
+			};
+			name = Debug;
+		};
+		9B793B061ED9724C00C57E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestQBDFScriptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.TestQBDFScriptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestQBDFScript.app/TestQBDFScript";
+			};
+			name = Release;
+		};
+		9B793B081ED9724C00C57E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestQBDFScriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.TestQBDFScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestQBDFScript;
+			};
+			name = Debug;
+		};
+		9B793B091ED9724C00C57E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestQBDFScriptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.TestQBDFScriptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestQBDFScript;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B793ACF1ED9724C00C57E48 /* Build configuration list for PBXProject "TestQBDFScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B793AFF1ED9724C00C57E48 /* Debug */,
+				9B793B001ED9724C00C57E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B793B011ED9724C00C57E48 /* Build configuration list for PBXNativeTarget "TestQBDFScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B793B021ED9724C00C57E48 /* Debug */,
+				9B793B031ED9724C00C57E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B793B041ED9724C00C57E48 /* Build configuration list for PBXNativeTarget "TestQBDFScriptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B793B051ED9724C00C57E48 /* Debug */,
+				9B793B061ED9724C00C57E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B793B071ED9724C00C57E48 /* Build configuration list for PBXNativeTarget "TestQBDFScriptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B793B081ED9724C00C57E48 /* Debug */,
+				9B793B091ED9724C00C57E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B793ACC1ED9724C00C57E48 /* Project object */;
+}

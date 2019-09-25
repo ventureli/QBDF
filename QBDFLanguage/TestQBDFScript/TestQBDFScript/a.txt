@@ -1,0 +1,240 @@
+[0;1;32mTranslationUnitDecl[0m[0;33m 0x7fd4de820cd0[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de821218[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __int128_t[0m [0;32m'__int128'[0m
+[0;34m| `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd4de820f40[0m [0;32m'__int128'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de821278[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __uint128_t[0m [0;32m'unsigned __int128'[0m
+[0;34m| `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd4de820f60[0m [0;32m'unsigned __int128'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de821308[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m SEL[0m [0;32m'SEL *'[0m
+[0;34m| `-[0m[0;32mPointerType[0m[0;33m 0x7fd4de8212d0[0m [0;32m'SEL *'[0m
+[0;34m|   `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd4de821180[0m [0;32m'SEL'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de8213e8[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit referenced[0;1;36m id[0m [0;32m'id'[0m
+[0;34m| `-[0m[0;32mObjCObjectPointerType[0m[0;33m 0x7fd4de821390[0m [0;32m'id'[0m
+[0;34m|   `-[0m[0;32mObjCObjectType[0m[0;33m 0x7fd4de821360[0m [0;32m'id'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de8214c8[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m Class[0m [0;32m'Class'[0m
+[0;34m| `-[0m[0;32mObjCObjectPointerType[0m[0;33m 0x7fd4de821470[0m [0;32m'Class'[0m
+[0;34m|   `-[0m[0;32mObjCObjectType[0m[0;33m 0x7fd4de821440[0m [0;32m'Class'[0m
+[0;34m|-[0m[0;1;32mObjCInterfaceDecl[0m[0;33m 0x7fd4de821518[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m Protocol[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de821878[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __NSConstantString[0m [0;32m'struct __NSConstantString_tag'[0m
+[0;34m| `-[0m[0;32mRecordType[0m[0;33m 0x7fd4de821680[0m [0;32m'struct __NSConstantString_tag'[0m
+[0;34m|   `-[0m[0;1;32mRecord[0m[0;33m 0x7fd4de8215e0[0m[0;1;36m '__NSConstantString_tag'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de821908[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __builtin_ms_va_list[0m [0;32m'char *'[0m
+[0;34m| `-[0m[0;32mPointerType[0m[0;33m 0x7fd4de8218d0[0m [0;32m'char *'[0m
+[0;34m|   `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd4de820d60[0m [0;32m'char'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd4de85b7e8[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __builtin_va_list[0m [0;32m'struct __va_list_tag [1]'[0m
+[0;34m| `-[0m[0;32mConstantArrayType[0m[0;33m 0x7fd4de85b790[0m [0;32m'struct __va_list_tag [1]'[0m 1 
+[0;34m|   `-[0m[0;32mRecordType[0m[0;33m 0x7fd4de85b600[0m [0;32m'struct __va_list_tag'[0m
+[0;34m|     `-[0m[0;1;32mRecord[0m[0;33m 0x7fd4de821958[0m[0;1;36m '__va_list_tag'[0m
+[0;34m|-[0m[0;1;32mObjCInterfaceDecl[0m[0;33m 0x7fd4de85b838[0m <[0;33m./ViewController.h:11:1[0m, [0;33mline:14:2[0m> [0;33mline:11:12[0m[0;1;36m ViewController[0m
+[0;34m| `-[0m[0;1;32mObjCImplementation[0m[0;33m 0x7fd4de85bea0[0m[0;1;36m 'ViewController'[0m
+[0;34m|-[0m[0;1;32mObjCInterfaceDecl[0m[0;33m 0x7fd4de85b968[0m <[0;33m./ViewControllerShareView.h:11:1[0m, [0;33mline:21:2[0m> [0;33mline:11:12[0m invalid[0;1;36m ViewControllerShareView[0m
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd4de85ba90[0m <[0;33mline:13:5[0m, [0;33mcol:9[0m> [0;33mcol:9[0m[0;1;36m good[0m [0;32m'int'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd4de85bb30[0m <[0;33mline:14:5[0m, [0;33mcol:15[0m> [0;33mcol:15[0m invalid[0;1;36m bad[0m [0;32m'int *'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd4de85bb98[0m <[0;33mline:15:5[0m, [0;33mcol:13[0m> [0;33mcol:13[0m invalid[0;1;36m f1[0m [0;32m'int'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd4de85bc00[0m <[0;33mline:16:5[0m, [0;33mcol:17[0m> [0;33mcol:17[0m invalid[0;1;36m b[0m [0;32m'int'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd4de85bc68[0m <[0;33mline:17:5[0m, [0;33mcol:17[0m> [0;33mcol:17[0m invalid[0;1;36m c[0m [0;32m'int'[0m protected
+[0;34m| `-[0m[0;1;32mObjCMethodDecl[0m[0;33m 0x7fd4de85bd80[0m <[0;33mline:19:1[0m, [0;33mcol:29[0m> [0;33mcol:1[0m +[0;1;36m shareInstance[0m [0;32m'instancetype':'id'[0m
+[0;34m|-[0m[0;1;32mObjCCategoryDecl[0m[0;33m 0x7fd4de85be08[0m <[0;33mViewController.m:13:1[0m, [0;33mline:15:2[0m> [0;33mline:13:12[0m
+[0;34m| `-[0m[0;1;32mObjCInterface[0m[0;33m 0x7fd4de85b838[0m[0;1;36m 'ViewController'[0m
+[0;34m|-[0m[0;1;32mObjCImplementationDecl[0m[0;33m 0x7fd4de85bea0[0m <[0;33mline:17:1[0m, [0;33mline:79:1[0m> [0;33mline:17:17[0m[0;1;36m ViewController[0m
+[0;34m| |-[0m[0;1;32mObjCInterface[0m[0;33m 0x7fd4de85b838[0m[0;1;36m 'ViewController'[0m
+[0;34m| |-[0m[0;1;32mObjCMethodDecl[0m[0;33m 0x7fd4de85bf38[0m <[0;33mline:19:1[0m, [0;33mline:72:1[0m> [0;33mline:19:1[0m -[0;1;36m viewDidLoad[0m [0;32m'void'[0m
+[0;34m| | |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd4de85c098[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit used[0;1;36m self[0m [0;32m'ViewController *'[0m
+[0;34m| | |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd4de85c120[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m _cmd[0m [0;32m'SEL':'SEL *'[0m
+[0;34m| | |-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd4de85c1c0[0m <[0;33mline:21:5[0m, [0;33mcol:78[0m> [0;33mcol:30[0m used[0;1;36m theview[0m [0;32m'ViewControllerShareView *'[0m cinit
+[0;34m| | | `-[0m[0;1;35mObjCMessageExpr[0m[0;33m 0x7fd4de85c230[0m <[0;33mcol:40[0m, [0;33mcol:78[0m> [0;32m'ViewControllerShareView *'[0m[0;36m[0m[0;36m[0m selector=shareInstance class=[0;32m'ViewControllerShareView'[0m
+[0;34m| | |-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd4de85c598[0m <[0;33mline:27:5[0m, [0;33mline:30:5[0m> [0;33mline:27:12[0m[0;1;36m block[0m [0;32m'void (^)(int, int)'[0m cinit
+[0;34m| | | `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd4df00a628[0m <[0;33mcol:34[0m, [0;33mline:30:5[0m> [0;32m'void (^)(int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| | |   `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd4df00a400[0m <[0;33mline:27:34[0m, [0;33mline:30:5[0m> [0;33mline:27:34[0m
+[0;34m| | |     |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a490[0m <[0;33mcol:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |     |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a500[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |     |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00a610[0m <[0;33mline:28:5[0m, [0;33mline:30:5[0m>
+[0;34m| | |     |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a490[0m <[0;33mline:27:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |     `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a500[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd4df00a400[0m <[0;33mcol:34[0m, [0;33mline:30:5[0m> [0;33mline:27:34[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a490[0m <[0;33mcol:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a500[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00a610[0m <[0;33mline:28:5[0m, [0;33mline:30:5[0m>
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a490[0m <[0;33mline:27:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a500[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd4df00a668[0m <[0;33mline:31:5[0m, [0;33mline:34:5[0m> [0;33mline:31:8[0m[0;1;36m a[0m [0;32m'id':'id'[0m cinit
+[0;34m| | | `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd4df00aa60[0m <[0;33mcol:12[0m, [0;33mline:34:5[0m> [0;32m'id':'id'[0m[0;36m[0m[0;36m[0m <[0;31mBlockPointerToObjCPointerCast[0m>
+[0;34m| | |   `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd4df00aa48[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;32m'int (^)(int, int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| | |     `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd4df00a6c8[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;33mline:31:12[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a758[0m <[0;33mcol:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a7c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a838[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00a9b0[0m <[0;33mcol:32[0m, [0;33mline:34:5[0m>
+[0;34m| | |       | `-[0m[0;1;35mReturnStmt[0m[0;33m 0x7fd4df00a998[0m <[0;33mline:33:9[0m, [0;33mcol:16[0m>
+[0;34m| | |       |   `-[0m[0;1;35mIntegerLiteral[0m[0;33m 0x7fd4df00a978[0m <[0;33mcol:16[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m[0;1;36m 10[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a758[0m <[0;33mline:31:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a7c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |       `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a838[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | |-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd4df00a6c8[0m <[0;33mcol:12[0m, [0;33mline:34:5[0m> [0;33mline:31:12[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a758[0m <[0;33mcol:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a7c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a838[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00a9b0[0m <[0;33mcol:32[0m, [0;33mline:34:5[0m>
+[0;34m| | | | `-[0m[0;1;35mReturnStmt[0m[0;33m 0x7fd4df00a998[0m <[0;33mline:33:9[0m, [0;33mcol:16[0m>
+[0;34m| | | |   `-[0m[0;1;35mIntegerLiteral[0m[0;33m 0x7fd4df00a978[0m <[0;33mcol:16[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m[0;1;36m 10[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a758[0m <[0;33mline:31:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a7c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | | `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a838[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | `-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00af18[0m <[0;33mline:19:21[0m, [0;33mline:72:1[0m>
+[0;34m| |   |-[0m[0;1;35mDeclStmt[0m[0;33m 0x7fd4de85c260[0m <[0;33mline:21:5[0m, [0;33mcol:79[0m>
+[0;34m| |   | `-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd4de85c1c0[0m <[0;33mcol:5[0m, [0;33mcol:78[0m> [0;33mcol:30[0m used[0;1;36m theview[0m [0;32m'ViewControllerShareView *'[0m cinit
+[0;34m| |   |   `-[0m[0;1;35mObjCMessageExpr[0m[0;33m 0x7fd4de85c230[0m <[0;33mcol:40[0m, [0;33mcol:78[0m> [0;32m'ViewControllerShareView *'[0m[0;36m[0m[0;36m[0m selector=shareInstance class=[0;32m'ViewControllerShareView'[0m
+[0;34m| |   |-[0m[0;1;35mDeclStmt[0m[0;33m 0x7fd4df00a640[0m <[0;33mline:27:5[0m, [0;33mline:30:6[0m>
+[0;34m| |   | `-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd4de85c598[0m <[0;33mline:27:5[0m, [0;33mline:30:5[0m> [0;33mline:27:12[0m[0;1;36m block[0m [0;32m'void (^)(int, int)'[0m cinit
+[0;34m| |   |   `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd4df00a628[0m <[0;33mcol:34[0m, [0;33mline:30:5[0m> [0;32m'void (^)(int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| |   |     `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd4df00a400[0m <[0;33mline:27:34[0m, [0;33mline:30:5[0m> [0;33mline:27:34[0m
+[0;34m| |   |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a490[0m <[0;33mcol:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a500[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |       |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00a610[0m <[0;33mline:28:5[0m, [0;33mline:30:5[0m>
+[0;34m| |   |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a490[0m <[0;33mline:27:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |       `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a500[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |-[0m[0;1;35mDeclStmt[0m[0;33m 0x7fd4df00aa78[0m <[0;33mline:31:5[0m, [0;33mline:34:6[0m>
+[0;34m| |   | `-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd4df00a668[0m <[0;33mline:31:5[0m, [0;33mline:34:5[0m> [0;33mline:31:8[0m[0;1;36m a[0m [0;32m'id':'id'[0m cinit
+[0;34m| |   |   `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd4df00aa60[0m <[0;33mcol:12[0m, [0;33mline:34:5[0m> [0;32m'id':'id'[0m[0;36m[0m[0;36m[0m <[0;31mBlockPointerToObjCPointerCast[0m>
+[0;34m| |   |     `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd4df00aa48[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;32m'int (^)(int, int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| |   |       `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd4df00a6c8[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;33mline:31:12[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a758[0m <[0;33mcol:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a7c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a838[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00a9b0[0m <[0;33mcol:32[0m, [0;33mline:34:5[0m>
+[0;34m| |   |         | `-[0m[0;1;35mReturnStmt[0m[0;33m 0x7fd4df00a998[0m <[0;33mline:33:9[0m, [0;33mcol:16[0m>
+[0;34m| |   |         |   `-[0m[0;1;35mIntegerLiteral[0m[0;33m 0x7fd4df00a978[0m <[0;33mcol:16[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m[0;1;36m 10[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a758[0m <[0;33mline:31:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a7c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |         `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00a838[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| |   `-[0m[0;1;35mCallExpr[0m[0;33m 0x7fd4df00aed0[0m <[0;33mline:42:9[0m, [0;33mcol:74[0m> [0;32m'void'[0m[0;36m[0m[0;36m[0m
+[0;34m| |     |-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd4df00aeb8[0m <[0;33mcol:9[0m> [0;32m'void (*)(id, ...)'[0m[0;36m[0m[0;36m[0m <[0;31mFunctionToPointerDecay[0m>
+[0;34m| |     | `-[0m[0;1;35mDeclRefExpr[0m[0;33m 0x7fd4df00ac70[0m <[0;33mcol:9[0m> [0;32m'void (id, ...)'[0m[0;36m[0m[0;36m[0m [0;1;32mFunction[0m[0;33m 0x7fd4df00ab08[0m[0;1;36m 'NSLog'[0m [0;32m'void (id, ...)'[0m
+[0;34m| |     `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd4df00af00[0m <[0;33mcol:15[0m, [0;33mcol:16[0m> [0;32m'id':'id'[0m[0;36m[0m[0;36m[0m <[0;31mBitCast[0m>
+[0;34m| |       `-[0m[0;1;35mObjCStringLiteral[0m[0;33m 0x7fd4df00ae38[0m <[0;33mcol:15[0m, [0;33mcol:16[0m> [0;32m'NSString *'[0m[0;36m[0m[0;36m[0m
+[0;34m| |         `-[0m[0;1;35mStringLiteral[0m[0;33m 0x7fd4df00ace8[0m <[0;33mcol:16[0m> [0;32m'char [57]'[0m[0;36m lvalue[0m[0;36m[0m[0;1;36m "<===================EVAL RES===========================>"[0m
+[0;34m| `-[0m[0;1;32mObjCMethodDecl[0m[0;33m 0x7fd4de85bfd8[0m <[0;33mline:73:1[0m, [0;33mline:76:1[0m> [0;33mline:73:1[0m -[0;1;36m didReceiveMemoryWarning[0m [0;32m'void'[0m
+[0;34m|   |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd4df00af50[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m self[0m [0;32m'ViewController *'[0m
+[0;34m|   |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd4df00afb0[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m _cmd[0m [0;32m'SEL':'SEL *'[0m
+[0;34m|   `-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd4df00b010[0m <[0;33mcol:33[0m, [0;33mline:76:1[0m>
+[0;34m`-[0m[0;1;32mFunctionDecl[0m[0;33m 0x7fd4df00ab08[0m <[0;33mline:42:9[0m> [0;33mcol:9[0m implicit used[0;1;36m NSLog[0m [0;32m'void (id, ...)'[0m extern
+[0;34m  |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd4df00abb0[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m [0;32m'id':'id'[0m
+[0;34m  `-[0m[0;1;34mFormatAttr[0m[0;33m 0x7fd4df00ac18[0m <[0;33mcol:9[0m> Implicit NSString 1 2
+[0;1;32mTranslationUnitDecl[0m[0;33m 0x7fd676020cd0[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd676021218[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __int128_t[0m [0;32m'__int128'[0m
+[0;34m| `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd676020f40[0m [0;32m'__int128'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd676021278[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __uint128_t[0m [0;32m'unsigned __int128'[0m
+[0;34m| `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd676020f60[0m [0;32m'unsigned __int128'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd676021308[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m SEL[0m [0;32m'SEL *'[0m
+[0;34m| `-[0m[0;32mPointerType[0m[0;33m 0x7fd6760212d0[0m [0;32m'SEL *'[0m
+[0;34m|   `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd676021180[0m [0;32m'SEL'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd6760213e8[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit referenced[0;1;36m id[0m [0;32m'id'[0m
+[0;34m| `-[0m[0;32mObjCObjectPointerType[0m[0;33m 0x7fd676021390[0m [0;32m'id'[0m
+[0;34m|   `-[0m[0;32mObjCObjectType[0m[0;33m 0x7fd676021360[0m [0;32m'id'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd6760214c8[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m Class[0m [0;32m'Class'[0m
+[0;34m| `-[0m[0;32mObjCObjectPointerType[0m[0;33m 0x7fd676021470[0m [0;32m'Class'[0m
+[0;34m|   `-[0m[0;32mObjCObjectType[0m[0;33m 0x7fd676021440[0m [0;32m'Class'[0m
+[0;34m|-[0m[0;1;32mObjCInterfaceDecl[0m[0;33m 0x7fd676021518[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m Protocol[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd676021878[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __NSConstantString[0m [0;32m'struct __NSConstantString_tag'[0m
+[0;34m| `-[0m[0;32mRecordType[0m[0;33m 0x7fd676021680[0m [0;32m'struct __NSConstantString_tag'[0m
+[0;34m|   `-[0m[0;1;32mRecord[0m[0;33m 0x7fd6760215e0[0m[0;1;36m '__NSConstantString_tag'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd676021908[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __builtin_ms_va_list[0m [0;32m'char *'[0m
+[0;34m| `-[0m[0;32mPointerType[0m[0;33m 0x7fd6760218d0[0m [0;32m'char *'[0m
+[0;34m|   `-[0m[0;32mBuiltinType[0m[0;33m 0x7fd676020d60[0m [0;32m'char'[0m
+[0;34m|-[0m[0;1;32mTypedefDecl[0m[0;33m 0x7fd67605b7e8[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m __builtin_va_list[0m [0;32m'struct __va_list_tag [1]'[0m
+[0;34m| `-[0m[0;32mConstantArrayType[0m[0;33m 0x7fd67605b790[0m [0;32m'struct __va_list_tag [1]'[0m 1 
+[0;34m|   `-[0m[0;32mRecordType[0m[0;33m 0x7fd67605b600[0m [0;32m'struct __va_list_tag'[0m
+[0;34m|     `-[0m[0;1;32mRecord[0m[0;33m 0x7fd676021958[0m[0;1;36m '__va_list_tag'[0m
+[0;34m|-[0m[0;1;32mObjCInterfaceDecl[0m[0;33m 0x7fd67605b838[0m <[0;33m./ViewController.h:11:1[0m, [0;33mline:14:2[0m> [0;33mline:11:12[0m[0;1;36m ViewController[0m
+[0;34m| `-[0m[0;1;32mObjCImplementation[0m[0;33m 0x7fd67605bea0[0m[0;1;36m 'ViewController'[0m
+[0;34m|-[0m[0;1;32mObjCInterfaceDecl[0m[0;33m 0x7fd67605b968[0m <[0;33m./ViewControllerShareView.h:11:1[0m, [0;33mline:21:2[0m> [0;33mline:11:12[0m invalid[0;1;36m ViewControllerShareView[0m
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd67605ba90[0m <[0;33mline:13:5[0m, [0;33mcol:9[0m> [0;33mcol:9[0m[0;1;36m good[0m [0;32m'int'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd67605bb30[0m <[0;33mline:14:5[0m, [0;33mcol:15[0m> [0;33mcol:15[0m invalid[0;1;36m bad[0m [0;32m'int *'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd67605bb98[0m <[0;33mline:15:5[0m, [0;33mcol:13[0m> [0;33mcol:13[0m invalid[0;1;36m f1[0m [0;32m'int'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd67605bc00[0m <[0;33mline:16:5[0m, [0;33mcol:17[0m> [0;33mcol:17[0m invalid[0;1;36m b[0m [0;32m'int'[0m protected
+[0;34m| |-[0m[0;1;32mObjCIvarDecl[0m[0;33m 0x7fd67605bc68[0m <[0;33mline:17:5[0m, [0;33mcol:17[0m> [0;33mcol:17[0m invalid[0;1;36m c[0m [0;32m'int'[0m protected
+[0;34m| `-[0m[0;1;32mObjCMethodDecl[0m[0;33m 0x7fd67605bd80[0m <[0;33mline:19:1[0m, [0;33mcol:29[0m> [0;33mcol:1[0m +[0;1;36m shareInstance[0m [0;32m'instancetype':'id'[0m
+[0;34m|-[0m[0;1;32mObjCCategoryDecl[0m[0;33m 0x7fd67605be08[0m <[0;33mViewController.m:13:1[0m, [0;33mline:15:2[0m> [0;33mline:13:12[0m
+[0;34m| `-[0m[0;1;32mObjCInterface[0m[0;33m 0x7fd67605b838[0m[0;1;36m 'ViewController'[0m
+[0;34m|-[0m[0;1;32mObjCImplementationDecl[0m[0;33m 0x7fd67605bea0[0m <[0;33mline:17:1[0m, [0;33mline:79:1[0m> [0;33mline:17:17[0m[0;1;36m ViewController[0m
+[0;34m| |-[0m[0;1;32mObjCInterface[0m[0;33m 0x7fd67605b838[0m[0;1;36m 'ViewController'[0m
+[0;34m| |-[0m[0;1;32mObjCMethodDecl[0m[0;33m 0x7fd67605bf38[0m <[0;33mline:19:1[0m, [0;33mline:72:1[0m> [0;33mline:19:1[0m -[0;1;36m viewDidLoad[0m [0;32m'void'[0m
+[0;34m| | |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd67605c098[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit used[0;1;36m self[0m [0;32m'ViewController *'[0m
+[0;34m| | |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd67605c120[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m _cmd[0m [0;32m'SEL':'SEL *'[0m
+[0;34m| | |-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd67605c1c0[0m <[0;33mline:21:5[0m, [0;33mcol:78[0m> [0;33mcol:30[0m used[0;1;36m theview[0m [0;32m'ViewControllerShareView *'[0m cinit
+[0;34m| | | `-[0m[0;1;35mObjCMessageExpr[0m[0;33m 0x7fd67605c230[0m <[0;33mcol:40[0m, [0;33mcol:78[0m> [0;32m'ViewControllerShareView *'[0m[0;36m[0m[0;36m[0m selector=shareInstance class=[0;32m'ViewControllerShareView'[0m
+[0;34m| | |-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd67605c598[0m <[0;33mline:27:5[0m, [0;33mline:30:5[0m> [0;33mline:27:12[0m[0;1;36m block[0m [0;32m'void (^)(int, int)'[0m cinit
+[0;34m| | | `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd67608a028[0m <[0;33mcol:34[0m, [0;33mline:30:5[0m> [0;32m'void (^)(int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| | |   `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd676089e00[0m <[0;33mline:27:34[0m, [0;33mline:30:5[0m> [0;33mline:27:34[0m
+[0;34m| | |     |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089e90[0m <[0;33mcol:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |     |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089f00[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |     |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a010[0m <[0;33mline:28:5[0m, [0;33mline:30:5[0m>
+[0;34m| | |     |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089e90[0m <[0;33mline:27:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |     `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089f00[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd676089e00[0m <[0;33mcol:34[0m, [0;33mline:30:5[0m> [0;33mline:27:34[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089e90[0m <[0;33mcol:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089f00[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a010[0m <[0;33mline:28:5[0m, [0;33mline:30:5[0m>
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089e90[0m <[0;33mline:27:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089f00[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd67608a068[0m <[0;33mline:31:5[0m, [0;33mline:34:5[0m> [0;33mline:31:8[0m[0;1;36m a[0m [0;32m'id':'id'[0m cinit
+[0;34m| | | `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd67608a460[0m <[0;33mcol:12[0m, [0;33mline:34:5[0m> [0;32m'id':'id'[0m[0;36m[0m[0;36m[0m <[0;31mBlockPointerToObjCPointerCast[0m>
+[0;34m| | |   `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd67608a448[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;32m'int (^)(int, int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| | |     `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd67608a0c8[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;33mline:31:12[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a158[0m <[0;33mcol:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a1c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a238[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a3b0[0m <[0;33mcol:32[0m, [0;33mline:34:5[0m>
+[0;34m| | |       | `-[0m[0;1;35mReturnStmt[0m[0;33m 0x7fd67608a398[0m <[0;33mline:33:9[0m, [0;33mcol:16[0m>
+[0;34m| | |       |   `-[0m[0;1;35mIntegerLiteral[0m[0;33m 0x7fd67608a378[0m <[0;33mcol:16[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m[0;1;36m 10[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a158[0m <[0;33mline:31:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a1c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | |       `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a238[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | |-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd67608a0c8[0m <[0;33mcol:12[0m, [0;33mline:34:5[0m> [0;33mline:31:12[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a158[0m <[0;33mcol:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a1c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a238[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a3b0[0m <[0;33mcol:32[0m, [0;33mline:34:5[0m>
+[0;34m| | | | `-[0m[0;1;35mReturnStmt[0m[0;33m 0x7fd67608a398[0m <[0;33mline:33:9[0m, [0;33mcol:16[0m>
+[0;34m| | | |   `-[0m[0;1;35mIntegerLiteral[0m[0;33m 0x7fd67608a378[0m <[0;33mcol:16[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m[0;1;36m 10[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a158[0m <[0;33mline:31:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| | | |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a1c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| | | `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a238[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| | `-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a918[0m <[0;33mline:19:21[0m, [0;33mline:72:1[0m>
+[0;34m| |   |-[0m[0;1;35mDeclStmt[0m[0;33m 0x7fd67605c260[0m <[0;33mline:21:5[0m, [0;33mcol:79[0m>
+[0;34m| |   | `-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd67605c1c0[0m <[0;33mcol:5[0m, [0;33mcol:78[0m> [0;33mcol:30[0m used[0;1;36m theview[0m [0;32m'ViewControllerShareView *'[0m cinit
+[0;34m| |   |   `-[0m[0;1;35mObjCMessageExpr[0m[0;33m 0x7fd67605c230[0m <[0;33mcol:40[0m, [0;33mcol:78[0m> [0;32m'ViewControllerShareView *'[0m[0;36m[0m[0;36m[0m selector=shareInstance class=[0;32m'ViewControllerShareView'[0m
+[0;34m| |   |-[0m[0;1;35mDeclStmt[0m[0;33m 0x7fd67608a040[0m <[0;33mline:27:5[0m, [0;33mline:30:6[0m>
+[0;34m| |   | `-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd67605c598[0m <[0;33mline:27:5[0m, [0;33mline:30:5[0m> [0;33mline:27:12[0m[0;1;36m block[0m [0;32m'void (^)(int, int)'[0m cinit
+[0;34m| |   |   `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd67608a028[0m <[0;33mcol:34[0m, [0;33mline:30:5[0m> [0;32m'void (^)(int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| |   |     `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd676089e00[0m <[0;33mline:27:34[0m, [0;33mline:30:5[0m> [0;33mline:27:34[0m
+[0;34m| |   |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089e90[0m <[0;33mcol:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089f00[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |       |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a010[0m <[0;33mline:28:5[0m, [0;33mline:30:5[0m>
+[0;34m| |   |       |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089e90[0m <[0;33mline:27:36[0m, [0;33mcol:40[0m> [0;33mcol:40[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |       `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd676089f00[0m <[0;33mcol:42[0m, [0;33mcol:46[0m> [0;33mcol:46[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |-[0m[0;1;35mDeclStmt[0m[0;33m 0x7fd67608a478[0m <[0;33mline:31:5[0m, [0;33mline:34:6[0m>
+[0;34m| |   | `-[0m[0;1;32mVarDecl[0m[0;33m 0x7fd67608a068[0m <[0;33mline:31:5[0m, [0;33mline:34:5[0m> [0;33mline:31:8[0m[0;1;36m a[0m [0;32m'id':'id'[0m cinit
+[0;34m| |   |   `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd67608a460[0m <[0;33mcol:12[0m, [0;33mline:34:5[0m> [0;32m'id':'id'[0m[0;36m[0m[0;36m[0m <[0;31mBlockPointerToObjCPointerCast[0m>
+[0;34m| |   |     `-[0m[0;1;35mBlockExpr[0m[0;33m 0x7fd67608a448[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;32m'int (^)(int, int, int)'[0m[0;36m[0m[0;36m[0m
+[0;34m| |   |       `-[0m[0;1;32mBlockDecl[0m[0;33m 0x7fd67608a0c8[0m <[0;33mline:31:12[0m, [0;33mline:34:5[0m> [0;33mline:31:12[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a158[0m <[0;33mcol:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a1c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a238[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608a3b0[0m <[0;33mcol:32[0m, [0;33mline:34:5[0m>
+[0;34m| |   |         | `-[0m[0;1;35mReturnStmt[0m[0;33m 0x7fd67608a398[0m <[0;33mline:33:9[0m, [0;33mcol:16[0m>
+[0;34m| |   |         |   `-[0m[0;1;35mIntegerLiteral[0m[0;33m 0x7fd67608a378[0m <[0;33mcol:16[0m> [0;32m'int'[0m[0;36m[0m[0;36m[0m[0;1;36m 10[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a158[0m <[0;33mline:31:14[0m, [0;33mcol:18[0m> [0;33mcol:18[0m[0;1;36m a[0m [0;32m'int'[0m
+[0;34m| |   |         |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a1c8[0m <[0;33mcol:20[0m, [0;33mcol:24[0m> [0;33mcol:24[0m[0;1;36m b[0m [0;32m'int'[0m
+[0;34m| |   |         `-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a238[0m <[0;33mcol:26[0m, [0;33mcol:30[0m> [0;33mcol:30[0m[0;1;36m c[0m [0;32m'int'[0m
+[0;34m| |   `-[0m[0;1;35mCallExpr[0m[0;33m 0x7fd67608a8d0[0m <[0;33mline:42:9[0m, [0;33mcol:74[0m> [0;32m'void'[0m[0;36m[0m[0;36m[0m
+[0;34m| |     |-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd67608a8b8[0m <[0;33mcol:9[0m> [0;32m'void (*)(id, ...)'[0m[0;36m[0m[0;36m[0m <[0;31mFunctionToPointerDecay[0m>
+[0;34m| |     | `-[0m[0;1;35mDeclRefExpr[0m[0;33m 0x7fd67608a670[0m <[0;33mcol:9[0m> [0;32m'void (id, ...)'[0m[0;36m[0m[0;36m[0m [0;1;32mFunction[0m[0;33m 0x7fd67608a508[0m[0;1;36m 'NSLog'[0m [0;32m'void (id, ...)'[0m
+[0;34m| |     `-[0m[0;1;35mImplicitCastExpr[0m[0;33m 0x7fd67608a900[0m <[0;33mcol:15[0m, [0;33mcol:16[0m> [0;32m'id':'id'[0m[0;36m[0m[0;36m[0m <[0;31mBitCast[0m>
+[0;34m| |       `-[0m[0;1;35mObjCStringLiteral[0m[0;33m 0x7fd67608a838[0m <[0;33mcol:15[0m, [0;33mcol:16[0m> [0;32m'NSString *'[0m[0;36m[0m[0;36m[0m
+[0;34m| |         `-[0m[0;1;35mStringLiteral[0m[0;33m 0x7fd67608a6e8[0m <[0;33mcol:16[0m> [0;32m'char [57]'[0m[0;36m lvalue[0m[0;36m[0m[0;1;36m "<===================EVAL RES===========================>"[0m
+[0;34m| `-[0m[0;1;32mObjCMethodDecl[0m[0;33m 0x7fd67605bfd8[0m <[0;33mline:73:1[0m, [0;33mline:76:1[0m> [0;33mline:73:1[0m -[0;1;36m didReceiveMemoryWarning[0m [0;32m'void'[0m
+[0;34m|   |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd67608a950[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m self[0m [0;32m'ViewController *'[0m
+[0;34m|   |-[0m[0;1;32mImplicitParamDecl[0m[0;33m 0x7fd67608a9b0[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m implicit[0;1;36m _cmd[0m [0;32m'SEL':'SEL *'[0m
+[0;34m|   `-[0m[0;1;35mCompoundStmt[0m[0;33m 0x7fd67608aa10[0m <[0;33mcol:33[0m, [0;33mline:76:1[0m>
+[0;34m`-[0m[0;1;32mFunctionDecl[0m[0;33m 0x7fd67608a508[0m <[0;33mline:42:9[0m> [0;33mcol:9[0m implicit used[0;1;36m NSLog[0m [0;32m'void (id, ...)'[0m extern
+[0;34m  |-[0m[0;1;32mParmVarDecl[0m[0;33m 0x7fd67608a5b0[0m <[0;33m<invalid sloc>[0m> [0;33m<invalid sloc>[0m [0;32m'id':'id'[0m
+[0;34m  `-[0m[0;1;34mFormatAttr[0m[0;33m 0x7fd67608a618[0m <[0;33mcol:9[0m> Implicit NSString 1 2

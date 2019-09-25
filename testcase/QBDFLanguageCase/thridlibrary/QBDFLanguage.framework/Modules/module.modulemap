@@ -1,0 +1,6 @@
+framework module QBDFLanguage {
+  umbrella header "QBDFLanguage.h"
+
+  export *
+  module * { export * }
+}
