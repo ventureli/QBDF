@@ -21,7 +21,7 @@ QBDFLanguage 语法解释器，生成中间代码  ，VLOC language 最大限度
 
 # QBDF 语法1-基本类型和语句
 >说明：
->VLOC language 最大程度的采用object-c语法，有小部分改动，比如block的定义，本文档不太完善，具体可以参看小胖给的示例工程
+>QBDF 最大程度的采用object-c语法，有小部分改动，比如block的定义，本文档不太完善，具体可以参看小胖给的示例工程
 >语言特性：
 >语法来自于OC，为面向对象和过程混合型语言，（同python，可以定义类，也可以在定义类前后写表达式和语句）见OC支持的例子
 
@@ -30,7 +30,7 @@ QBDFLanguage 语法解释器，生成中间代码  ，VLOC language 最大限度
 单行注释//
 多行注释/* */不支持
 ##变量类型 
->VLOC language 是弱类型的语言，所有的类型都可以用id来代表，另外可以像写原生OC那样写所有的OC类型
+>QBDF 是弱类型的语言，所有的类型都可以用id来代表，另外可以像写原生OC那样写所有的OC类型
 ### id
 通用变量类型:
 
@@ -85,7 +85,7 @@ if (2 >1)
     int i = 23;
     NSLog(@"i is %@",i); //i is 23
     
-    __VLOC_FREE__(i); //强制虚拟机删除变量i（通常用于提前释放内存）
+    __QBDF_FREE__(i); //强制虚拟机删除变量i（通常用于提前释放内存）
     NSLog(@"i is %@",i); //i is 10
 }
 
@@ -118,7 +118,7 @@ dict[@"good"] = @"I'm in the dict";
 if(5--)
 {
     int i = 11;
-    NSLog(@"VELOC: is :%@",i);
+    NSLog(@"QBDF: is :%@",i);
 }else
 {
     i = 20;
@@ -188,12 +188,12 @@ int i = 10;
 if(i < 10)
 {
     int i = 11;
-    NSLog(@"VLOC: is :%@",i);
+    NSLog(@"QBDF: is :%@",i);
 }else
 {
     i = 20;
 }
-NSLog(@"VLOC: is :%@",i);
+NSLog(@"QBDF: is :%@",i);
 int j = 10;
 int k = 8;
 //while 逻辑控制语法
@@ -205,7 +205,7 @@ while(j > 0)
         break;
     }
     id str = @"good李文强fatboyli";
-    NSLog(@"VLOC: j is:%@ str is:%@",j,str);
+    NSLog(@"QBDF: j is:%@ str is:%@",j,str);
     j --;
     
 }
@@ -243,10 +243,10 @@ for(int m = 0 ;m < 5;m++)
 
 
 
-# VLOC language 语法2-任意结构结构体调用
+# QBDF 语法2-任意结构结构体调用
 
->VLOC 除了原生支持自带的CGRect，CGSize，CGPoint，NSrange，UIEdgeInserts 后，添加对任意结构体的支持。
->所不同的是，除了上面的几个系统内置的结构体，其余结构体类型，需要在VLOC的脚本再定义一次和内部结构体一样的类型。
+>QBDF 除了原生支持自带的CGRect，CGSize，CGPoint，NSrange，UIEdgeInserts 后，添加对任意结构体的支持。
+>所不同的是，除了上面的几个系统内置的结构体，其余结构体类型，需要在QBDF的脚本再定义一次和内部结构体一样的类型。
 
 ####定义
 
@@ -278,7 +278,7 @@ NSLog(@"e is is:%@",e);
 ```
 ```
 //结果如下
-2017-08-07 17:45:53.123 TestVLOCScript[9784:13403349] e is is:myStruct{
+2017-08-07 17:45:53.123 TestQBDFScript[9784:13403349] e is is:myStruct{
     b = "22.2";
     c = 12;
     d = 33;
@@ -299,7 +299,7 @@ typedef struct UIOffset {
 
 这个struct 不再我们支持的基本类型之中，我们要用到这个结构和和nativeOC的内部交互或者使用
 
-#####   1.我们在VLOC脚本中第一个一样的结构体
+#####   1.我们在QBDF脚本中第一个一样的结构体
 
 ```
 struct UIOffset {
@@ -331,7 +331,7 @@ the offset is:12 --- 34.3
 ```
 
 
-# VLOC language 语法3-C函数支持
+# QBDF language 语法3-C函数支持
 ##支持的C函数
 ###1.OC常用c函数
  * NSLog 
@@ -370,7 +370,7 @@ dispatch_async(dispatch_get_global_queue(0, 0), ^{
 });
 
 ```
-###2.VLOC自定义c函数
+###2.QBDF自定义c函数
 
 
 //前后各两个下划线
@@ -394,8 +394,8 @@ int m = 10;
 if(2 >1)
 {
     int m = 34;
-    __VLOC_FREE__(m); //释放值为34 这个m
-    __VLOC_FREE__(m); //释放值为10 这个m
+    __QBDF_FREE__(m); //释放值为34 这个m
+    __QBDF_FREE__(m); //释放值为10 这个m
 }
 
 ```
@@ -509,7 +509,7 @@ NSLog(@"array is %@ the index[%@] is:%@",array,count+2,array[2]);
 
 @property(nonatomic ,strong)id      thetext;
 //这里只支持ID类型属性
-//另外可以用可以用setVLOCPro系列方法，见下一小节
+//另外可以用可以用setQBDFPro系列方法，见下一小节
 @end
 
 @implementation TestViewB
@@ -628,8 +628,8 @@ NSLog(@"b is:%@ b.thetext:%@",b,b.thetext);
     
     UICollectionView * collctionView =  [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, self.bounds.size.width, self.bounds.size.height -100) collectionViewLayout:lay];
     
-    [self setVLOCProp:lay forKey:@"layout"];
-    [self setVLOCProp:collctionView forKey:@"collctionView"];
+    [self setQBDFProp:lay forKey:@"layout"];
+    [self setQBDFProp:collctionView forKey:@"collctionView"];
     
     
     [collctionView setBackgroundColor:[UIColor orangeColor]];
@@ -825,7 +825,7 @@ NSLog(@"i is %@",i);    //i is 10
 
 
 
-# VLOC language 语法5-全类型声明和指针支持
+# QBDF 语法5-全类型声明和指针支持
 ###1.全类型支持&全类型指针（所有基本类型）
 ```
 
